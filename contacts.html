@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sairaj Pal | Contacts</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/CabinSketch_700.font.js"></script>
+<script type="text/javascript" src="js/EB_Garamond_400.font.js"></script>
+<!-- [if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">
+.bg {behavior:url(js/PIE.htc)}
+</style>
+<![endif]-->
+<!-- [if lt IE 7]>
+<div style='clear:both;text-align:center;position:relative'>
+<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" alt="" /></a>
+</div>
+<![endif]-->
+</head>
+<body id="page5">
+<!-- START PAGE SOURCE -->
+<div class="main">
+  <header>
+    <div class="wrapper">
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html"><span>A</span>bout</a></li>
+            <li><a href="http://chat.sairajpal.in/"><span>C</span>hat</a></li>
+          <li id="menu_active"><a href="contacts.html"><span>C</span>ontacts</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1><a href="index.html" id="logo">DesignStudio.com</a></h1>
+  </header>
+  <section id="content">
+    <div class="wrapper">
+      <article class="col1">
+        <h2>Contacts</h2>
+        <div class="pad">
+          <div class="wrapper">
+            <p class="cols"><strong>Country:<br>
+              State:<br>
+              City:<br>
+              Telephone:<br>
+              Email:</strong> </p>
+            <p class="col3">INDIA<br>
+              WEST BENGAL<br>
+              KOLKATA<br>
+              +91 9475048645<br>
+              <a href="#">info@sairajpal.in</a> </p>
+            <p><strong>Please fill up the form :</strong><br>
+              Please fill up the form forany query and will contact you back within <br>1 hour resolving your problem.</p>
+          </div>
+        </div>
+        <h2><span>Contact Form</span></h2>
+        <form id="ContactForm">
+          <div>
+            <div class="wrapper"> <span>Your Name:</span>
+              <input type="text" class="input" name="nm">
+            </div>
+            <div class="wrapper"> <span>Your E-mail:</span>
+              <input type="text" class="input" name="em">
+            </div>
+            <div class="textarea_box"> <span>Your Message:</span>
+              <textarea name="textarea" cols="1" rows="1" name="msg" ></textarea>
+            </div>
+			<?php
+			echo $_GET['nm'];
+			?>
+            <a href="a.html?">Send</a> </div>
+        </form>
+      </article>
+      <article class="col2">
+        <h3>Latest Works</h3>
+        <ul class="ul_works">
+          
+        </ul>
+        <div class="tweets">
+          
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer>
+    <div class="wrapper">
+      <article class="col">
+         <h5>Why </h5>
+        <ul class="list1">
+          <li><a href="#">Web</a></li>
+          <li><a href="#">Embedded</a></li>
+          <li><a href="#">Arduino</a></li>
+          <li><a href="#">Raspberry Pi</a></li>
+          <li><a href="#">r/c flyers </a></li>
+        </ul>
+      </article>
+      <article class="col pad_left2">
+        <h5>Links</h5>
+        <ul class="list1">
+          <li><a href="http://www.resellbook.com/">resellbook</a></li>
+          <li><a href="http://www.teachyoulinux.com/">teachyoulinux</a></li>
+          <li><a href="http://magicspell.sairajpal.in/">magic spell</a></li>
+        </ul>
+      </article>
+      <article class="col pad_left2">
+        <h5>Follow</h5>
+        <ul class="icons">
+          <li><a href="https://www.facebook.com/sairajpal1993" target="_blank"><img src="images/icon1.jpg" alt="">Facebook</a></li>
+          <li><a href="#"><img src="images/icon2.jpg" alt="">Stumleupon</a></li>
+          <li><a href="#"><img src="images/icon3.jpg" alt="">Twitter</a></li>
+          <li><a href="#"><img src="images/icon4.jpg" alt="">Digg</a></li>
+          <li><a href="#"><img src="images/icon5.jpg" alt="">RSS Feed</a></li>
+        </ul>
+      </article>
+      <article id="newsletter">
+        <h5>Newsletter</h5>
+        <form id="newsletter_form" action="#">
+          <div class="wrapper">
+            <input class="input" type="text" value="Enter your email here" onBlur="if(this.value=='') this.value='Enter your email here'" onFocus="if(this.value =='Enter your email here' ) this.value=''" >
+          </div>
+          <a href="#">Subscribe</a>
+        </form>
+      </article>
+    </div>
+    
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
